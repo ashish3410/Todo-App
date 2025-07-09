@@ -40,7 +40,7 @@ useEffect(()=>{
           <div className="flex flex-wrap gap-y-3">
             {/*Loop and Add TodoItem here */}
             {todos.map((todo)=>(
-              <div key={todo.id}>
+              <div classname='w-full' key={todo.id}>
                 <TodoItem todo={todo}/>
               </div>
             ))}
